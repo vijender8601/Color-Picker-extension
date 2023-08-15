@@ -1,0 +1,45 @@
+body {
+    background: #f1f5f9;
+}
+
+.body_wrapper {
+    width: 20rem;
+    text-align: center;
+    padding: 0.125rem;
+}
+
+.colorBtn {
+    width: 10rem;
+    padding: 0.1625rem;
+    outline: none;
+    border: none;
+    background: #60b3ee;
+    color: #fff;
+    cursor: pointer;
+}
+
+.colorBtn:hover {
+    box-shadow: 0 0.625rem 1.875rem rgb(118 85 225 / 30%);
+    background: #148fe7;
+}
+
+.colorGrid {
+
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    border: 0.0625rem;
+}
+
+.colorValue {
+    display: inline-block;
+    font-size: 1rem;
+    color: black;
+    margin-left: 0.25rem;
+}
+
+.selectedColor {
+    display: flex;
+    align-items: center;
+    margin-top: 0.25rem;
+}
